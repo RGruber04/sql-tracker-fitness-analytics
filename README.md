@@ -108,7 +108,7 @@ ORDER BY
 **Output Result:**
 The data output confirms that my compound lifting strength remained remarkably stable despite operating in a prolonged caloric deficit. I was also able to successfully log minor progressive overload performance gains on isolated movements (such as Cable Curls) over the course of the tracking window.
 
-![Query 2 Result](images/query2_result.png)
+![Query 2 Result](images/query2_result1.png)
 ![Query 2 Result](images/query2_result2.png)
 ![Query 2 Result](images/query2_result3.png)
 ![Query 2 Result](images/query2_result4.png)
