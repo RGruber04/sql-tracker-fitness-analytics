@@ -151,4 +151,4 @@ Variables: Glycogen availability from carbohydrates is not the only factor dicta
 ![Query 3 Result](images/query3_result.png)
 
 ### Project Conclusion
-Designing and implementing this project provided practical experience structuring relational schemas around real world data. The time-series metrics successfully verified that a strict diet works in preserving lean tissue and muscle strength during active fat loss phases. It stands as a solid model for modeling and analyzing, self tracked physiological data.
+Designing and implementing this project provided practical experience structuring relational schemas around real world data. The time-series metrics successfully verified that a strict diet works in preserving lean tissue and muscle strength during active fat loss phases. It stands as a solid model for modeling and analyzing, self tracked physiological data. In the end this project assisted in helping me lose 21 lbs over the course of roughly 3 months.
