@@ -83,6 +83,8 @@ FROM (
 **Output Result:**
 This query calculates an average weight change of -0.133 lbs per day. This confirms that my caloric deficit was dialed in correctly, maintaining a steady, sustainable fat loss pace of around 1 lb lost per week over the tracking period (-1.5  lbs per week at the start shifting towards -.75 lbs per week at the end)
 
+![Query 1 Result](images/query1_result.png)
+
 ### Query 2: Peak Progressive Overload Tracking (Aggregations & Joining)
 **Objective:** Group and isolate the absolute maximum weight and maximum repetition volume achieved per exercise on every distinct training date to evaluate workout progression over time.
 
@@ -105,6 +107,12 @@ ORDER BY
 
 **Output Result:**
 The data output confirms that my compound lifting strength remained remarkably stable despite operating in a prolonged caloric deficit. I was also able to successfully log minor progressive overload performance gains on isolated movements (such as Cable Curls) over the course of the tracking window.
+
+![Query 2 Result](images/query2_result1.png)
+![Query 2 Result](images/query2_result2.png)
+![Query 2 Result](images/query2_result3.png)
+![Query 2 Result](images/query2_result4.png)
+![Query 2 Result](images/query2_result5.png)
 
 ### Query 3: Multi-Variable Conditional Analysis (Subqueries & Conditional Logic)
 **Objective:** Evaluate strength output based on daily carbohydrate macro targets (250g goal). A conditional CASE statement groups dates into 'High' or 'Low' carb compliance, which is then joined against a nested analytical subquery filtering peak performance on a compound movement (Quad Biased Squat, Lift_ID = 12).
@@ -139,6 +147,8 @@ From a data literacy standpoint, analyzing this dataset highlights key constrain
 Sample Size Limitations: The query captures an 8-session squat window, which lacks statistical significance for broad correlations.
 
 Variables: Glycogen availability from carbohydrates is not the only factor dictating gym performance. Massive outside parameters were untracked in this database schema, including sleep quality, pre workout carb timing, pre workout stimulants (caffeine), stress, and the accumulation of systemic fatigue over a long-term fat-loss phase.
+
+![Query 3 Result](images/query3_result.png)
 
 ### Project Conclusion
 Designing and implementing this project provided practical experience structuring relational schemas around real world data. The time-series metrics successfully verified that a strict diet works in preserving lean tissue and muscle strength during active fat loss phases. It stands as a solid model for modeling and analyzing, self tracked physiological data.
